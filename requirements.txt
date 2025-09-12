@@ -1,0 +1,21 @@
+# Core dependencies
+streamlit
+pillow
+numpy
+
+# Optional: for TFLite conversion/benchmarking
+tensorflow>=2.12
+
+# Optional: for ONNX model support
+onnx
+onnxruntime
+
+# Optional: for Keras -> ONNX conversion
+tf2onnx
+
+# Optional: audio/signal processing (if you enable audio preprocessing)
+librosa
+soundfile
+
+# Optional: serial data acquisition (if you want to connect to real hardware)
+pyserial
